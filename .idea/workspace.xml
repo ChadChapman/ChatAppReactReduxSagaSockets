@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1687d2-7714-46f6-a636-ea836628e8ba" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/MessagesList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddMessage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddMessage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/AddMessage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessagesList.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/MessagesList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -73,6 +86,7 @@
         <option value="$PROJECT_DIR$/src/components/Sidebar.js" />
         <option value="$PROJECT_DIR$/src/components/Message.js" />
         <option value="$PROJECT_DIR$/src/containers/AddMessage.js" />
+        <option value="$PROJECT_DIR$/src/containers/MessagesList.js" />
       </list>
     </option>
   </component>
@@ -181,7 +195,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532292377842</updated>
-      <workItem from="1532292380052" duration="8112000" />
+      <workItem from="1532292380052" duration="8683000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1532293219303</created>
@@ -288,11 +302,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532299643923</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added containers directoy, first container, AddMessage">
+      <created>1532300580004</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1532300580004</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8112000" />
+    <option name="totallyTimeSpent" value="8683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="864" y="28" width="1197" height="782" extended-state="0" />
@@ -343,7 +364,8 @@
     <MESSAGE value="MessagesList component done" />
     <MESSAGE value="renamed component AddMessage to correct case issue" />
     <MESSAGE value="component Sidebar completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="component Sidebar completed" />
+    <MESSAGE value="added containers directoy, first container, AddMessage" />
+    <option name="LAST_COMMIT_MESSAGE" value="added containers directoy, first container, AddMessage" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
@@ -517,7 +539,17 @@
     <entry file="file://$PROJECT_DIR$/src/containers/AddMessage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/MessagesList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
